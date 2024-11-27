@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+        />
+
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" 
+          href="\static\styles.css"
+        >
+
+        <title>x Wire - Extemp Prep Pervice</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark" id="navbar-bg-color">
+            <a class="navbar-brand" href="#">
+                
+                <img src="\static\pen.png" height="30" class="d-inline-block align-top" alt="">
+                X Wire
+            </a>
+        </nav>
+
+        
+        <div class="content">
+            <div>
+                {% block header %} <h2>Page Title</h2> {% endblock %}
+            </div>
+
+            <div>
+                {% block section %}
+                    <h4 id="secHead">section head here</h4> 
+                {% endblock %}
+            </div>
+            
+            <!--
+            <h1>Hello World</h1>
+            <h3>Hello World</h3>
+            <h4>Hello World</h4>
+            <h5>Hello World</h5>
+            <h6>Hello World</h6>
+            <p>Hello World</p>
+            -->
+
+        </div>
+        
+
+        <!-- Java Script -->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+        ></script>
+    </body>
+
+</html>

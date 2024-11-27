@@ -1,0 +1,35 @@
+:root {
+    --drk_txt: #16423C;
+    --sub_txt: #6A9C89;
+    --l_grn: #C4DAD2;
+    --bg_wht: #E9EFEC;
+    --white: #ffffff;
+
+    --brdFont: "Amatica SC"
+
+}
+
+
+
+#navbar-bg-color {
+    background-color: var(--sub_txt);
+}
+
+body {
+    background-color: var(--bg_wht);  
+} 
+
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*-----------------Debugging------------------------*/
+
+div {
+    background-color: aqua;
+    border: 3px dashed red; /* Solid 3px red border on all sides */
+}
